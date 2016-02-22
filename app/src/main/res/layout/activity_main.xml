@@ -1,0 +1,1157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:padding="5dp"
+    android:baselineAligned="false">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_margin="1dp"
+    
+    android:tag="00">
+
+    
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+
+    <ImageView android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:tag="disc00"
+        android:src="@drawable/black_disc"
+        
+        android:id="@+id/disc00"
+        android:visibility="invisible" />
+
+    <ImageView android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:tag="ring00"
+        android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+        android:id="@+id/ring00" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+
+        <ImageView android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tag="disc10"
+            android:src="@drawable/black_disc"  
+            android:id="@+id/disc10"
+            android:visibility="invisible" />
+
+        <ImageView android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tag="ring10"
+            android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+            android:id="@+id/ring10" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+
+        <ImageView android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tag="disc20"
+            android:src="@drawable/black_disc"  
+            android:id="@+id/disc20"
+            android:visibility="invisible" />
+
+        <ImageView android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tag="ring20"
+            android:src="@drawable/white_ring"
+            android:onClick="clickOnColumn"
+            android:id="@+id/ring20" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+
+        <ImageView android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tag="disc30"
+            android:src="@drawable/black_disc"  
+            android:id="@+id/disc30"
+            android:visibility="invisible" />
+
+        <ImageView android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tag="ring30"
+
+            android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+            android:id="@+id/ring30" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+
+        <ImageView android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tag="disc40"
+            android:src="@drawable/black_disc"  
+            android:id="@+id/disc40"
+            android:visibility="invisible" />
+
+        <ImageView android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tag="ring40"
+            android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+            android:id="@+id/ring40" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+
+        <ImageView android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tag="disc50"
+            android:src="@drawable/black_disc"  
+            android:id="@+id/disc50"
+            android:visibility="invisible" />
+
+        <ImageView android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tag="ring50"
+            android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+            android:id="@+id/ring50" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        
+        android:tag="01">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc01"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc01"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:tag="ring01"
+                android:id="@+id/ring01" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc11"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc11"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring11"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring11" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc21"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc21"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring21"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring21" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc31"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc31"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring31"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring31" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc41"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc41"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring41"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring41" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc51"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc51"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring51"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring51" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        
+        android:tag="02">>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc02"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc02"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring02"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring02" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc12"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc12"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring12"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring12" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc22"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc22"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring22"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring22" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc32"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc32"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring32"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring32" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc42"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc42"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring42"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring42" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc52"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc52"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring52"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring52" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        
+        android:tag="03">>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc03"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc03"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring03"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring03" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc13"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc13"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring13"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring13" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc23"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc23"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring23"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring23" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc33"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc33"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring33"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring33" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc43"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc43"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring43"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring43" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc53"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc53"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring53"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring53" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        
+        android:tag="04">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc04"
+                android:src="@drawable/black_disc"  
+                android:alpha="1"
+                android:id="@+id/disc04"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring04"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring04" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc14"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc14"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring14"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring14" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc24"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc24"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring24"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring24" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc34"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc34"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring34"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring34" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc44"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc44"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring44"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring44" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc54"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc54"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring54"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring54" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        
+        android:tag="05">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc05"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc05"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring05"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring05" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc15"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc15"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring15"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring15" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc25"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc25"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring25"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring25" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc35"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc35"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring35"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring35" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc45"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc45"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring45"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring45" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc55"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc55"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring55"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring55" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        
+        android:tag="06">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc06"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc06"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring06"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring06" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc16"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc16"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring16"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring16" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc26"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc26"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring26"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring26" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc36"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc36"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring36"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring36" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc46"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc46"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring46"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring46" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="disc56"
+                android:src="@drawable/black_disc"  
+                android:id="@+id/disc56"
+                android:visibility="invisible" />
+
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:tag="ring56"
+                android:src="@drawable/white_ring"             android:onClick="clickOnColumn"
+                android:id="@+id/ring56" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+
+            >
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Connect 4"
+                  android:textColor="@color/textColor"
+                  android:textSize="24dp"
+                  android:textStyle="bold"
+                  android:layout_centerInParent="false"
+                  android:layout_margin="10dp"
+                  android:layout_weight="10"
+
+
+
+                  />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/white_reset"
+                android:onClick="reset"
+                android:id="@+id/reset"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginTop="32dp">
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@color/background"
+                android:id="@+id/black_turn"
+                />
+<ImageView
+    android:layout_width="45dp"
+    android:layout_height="45dp"
+    android:src="@drawable/human_red"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="0dp"
+    android:id="@+id/player_one"
+    android:layout_weight="3"
+    />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="vs"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/textColor"
+
+
+               />
+
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="53dp"
+                android:src="@drawable/cpu_yellow"
+                android:gravity="right"
+                android:layout_marginRight="0dp"
+                android:id="@+id/player_two"
+                android:layout_weight="3"
+                android:scaleType="fitCenter"
+                />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@color/background"
+                android:id="@+id/white_turn"
+                />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
